@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: 'Gotham';
+    font-weight: lighter;
     margin: 0;
     padding: 0;
 }
 
 nav {
     width: 100%;
-    padding: 1.2rem 22rem;
+    padding: 1.2rem 22rem 1.2rem 24rem;
     background: black;
     display: flex;
     align-items: center;
@@ -19,13 +19,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.1rem;
     color: white;
-    font-weight: 550;
+    font-size: 25px;
 }
 
 .spotiLogo i {
+    font-size: 40px;
     margin-right: 0.4rem;
+}
+
+.spotiLogo span {
+    letter-spacing: -1.1px;
 }
 
 nav span i {
@@ -58,7 +62,7 @@ nav .links {
 
 section {
     width: 100%;
-    padding: 2rem 0;
+    padding: 2.5rem 0 2rem 0;
     background-color: #993399;
     display: flex;
     align-items: center;
@@ -71,28 +75,27 @@ section .text {
 
 section .text h1 {
     font-size: 2.3rem;
-    margin: 1.5rem 0;
     color: #fff;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 section .text h3 {
+    margin-top: 30px;
     color: #fff;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 24px;
     display: block;
     text-align: left;
+    font-weight: lighter;
 }
 
 section .text p {
-    font-size: 0.7rem;
-    font-weight: lighter;
+    font-size: 0.65rem;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    font-weight: lighter;
 }
 
 section .text p u {
-    font-weight: lighter;
     cursor: pointer;
 }
 
@@ -101,7 +104,6 @@ section .text button {
     text-transform: uppercase;
     background: #191414;
     color: #fff;
-    font-weight: 900;
     border-radius: 2.5rem;
     margin-top: 3rem;
     margin-left: 0.3rem;
@@ -124,7 +126,8 @@ section .text button:hover {
 }
 
 article {
-    width: 100%;
+    margin: 0 auto;
+    width: 70%;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -133,9 +136,10 @@ article {
 }
 
 article h1 {
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -1px;
     margin-bottom: 5rem;
+    font-weight: bold;
 }
 
 .features {
@@ -151,18 +155,18 @@ article h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 3rem;
+    margin: 0 2rem;
 }
 
 .card h2 {
-    margin-top: 2.3rem;
-    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 18px;
     margin-bottom: 0.7rem;
 }
 
 .card h3 {
-    font-size: 1rem;
-    font-weight: lighter;
+    font-size: 16px;
     color: #000;
 }
 
@@ -179,12 +183,13 @@ article h1 {
 .section2 span h1 {
     display: block;
     text-align: center;
-    font-size: 2.3rem;
-    margin-bottom: 1rem;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: -1.6px;
 }
 
 .section2 span h4 {
-    font-weight: 300;
     margin-top: -0.2rem;
     margin-bottom: 3rem;
 }
@@ -193,11 +198,11 @@ article h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 65%;
+    width: 69%;
 }
 
 .plan {
-    max-width: 18rem;
+    max-width: 310px;
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
@@ -209,7 +214,7 @@ article h1 {
 
 .top {
     width: 100%;
-    height: 12rem;
+    height: 209px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -220,7 +225,7 @@ article h1 {
     background-color: #0d72ea;
     color: #fff;
     padding: 0.27rem 0.5rem;
-    font-size: 0.9rem;
+    font-size: 14px;
     border-radius: 0.3rem;
     margin: 0.3rem 0;
 }
@@ -231,31 +236,25 @@ article h1 {
     padding: 0.3rem 0.5rem;
     font-size: 0.9rem;
     border-radius: 0.3rem;
-    margin: 0.3rem 0 0.5rem 0;
-}
-
-.top {
-    height: 12rem;
+    margin: 0.3rem 0 10px 0;
 }
 
 .top p {
-    font-size: 1rem;
-    font-weight: lighter;
+    font-size: 16;
     display: block;
 }
 
 .top p span {
     display: block;
     font-size: 1rem;
-    font-weight: lighter;
     margin-top: 0.3rem;
 }
 
 .title {
     color: #000;
-    font-size: 1.5rem;
-    margin-bottom: 0.4rem;
     font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .widthLine {
@@ -267,7 +266,7 @@ article h1 {
 
 .mid {
     width: 100%;
-    height: 12rem;
+    height: 212px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -279,7 +278,6 @@ article h1 {
     display: flex;
     align-items: center;
     font-size: 1rem;
-    font-weight: lighter;
     margin: 0.4rem 0;
 }
 
@@ -289,7 +287,7 @@ article h1 {
 }
 
 .foot {
-    height: 12rem;
+    height: 145px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,10 +299,10 @@ article h1 {
     cursor: pointer;
     background: black;
     color: white;
-    padding: 0.9rem 2.5rem;
+    padding: 14px 32px;
     text-transform: uppercase;
     border-radius: 2rem;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .foot h4 {
@@ -314,29 +312,26 @@ article h1 {
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
+    margin: 14px 32px;
+    font-size: 14px;
     text-align: center;
 }
 
 .privacy {
     display: block;
     width: 87%;
-    height: 4rem;
+    height: 121px;
 }
 
 .privacy p {
-    margin-top: -2rem;
     display: block;
     font-size: 0.73rem;
     color: #666;
-    font-weight: lighter;
 }
 
 .privacy a {
     font-size: 0.73rem;
     color: #666;
-    font-weight: lighter;
 }
 
 .section3 {
@@ -367,27 +362,38 @@ article h1 {
     align-items: flex-start;
 }
 
+.side .logo {
+    cursor: pointer;
+}
+
 .side .logo span {
-    font-size: 1.6rem;
+    letter-spacing: -1.1px;
+    font-size: 24px;
 }
 
 .side .logo i {
-    font-size: 2.4rem;
+    font-size: 40px;
+    margin-right: 0.4rem;
 }
 
 .side h3 {
-    font-weight: bold;
-    font-size: 1rem;
+    font-size: 12px;
+    text-transform: uppercase;
     color: #919496;
     margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .side a {
     color: #fff;
     margin: 0.7rem 0;
-    font-size: 1rem;
+    font-size: 16px;
     text-decoration: none;
-    font-weight: lighter;
+}
+
+.side a:hover {
+    color: #1ed760;
 }
 
 .media {
@@ -403,6 +409,11 @@ article h1 {
     font-size: 28px;
     border-radius: 50%;
     margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+.media i:hover {
+    color: #1ed760;
 }
 
 .media i:nth-child(2) {
@@ -428,20 +439,32 @@ article h1 {
     font-size: 0.75rem;
     color: #919496;
     margin: 0 1rem;
-    font-weight: lighter;
 }
 
-.brand,
-h3 {
+.localLinks a:hover {
+    color: #1ed760;
+}
+
+.brand {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-evenly;
+}
+
+.brand span {
     color: #919496;
-    font-size: 0.8rem;
-    font-weight: lighter;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.brand span span:hover {
+    color: #1ed760;
 }
 
 .brand h3 {
     margin-top: 0.7rem;
+    font-size: 12px;
+    color: #919496;
+
 }
